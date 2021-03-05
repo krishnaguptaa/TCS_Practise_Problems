@@ -46,3 +46,29 @@ class Main{
      }
   }
 }
+
+/*
+Second Method by forming formula for Nth element as it is Nth element = n*(2*n-1) and having number greater than int,
+we operate % 1000000007 to answer 
+
+import java.util.*;
+class Main{
+  public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    while(n>0){
+      n--;
+      int index = sc.nextInt();
+      int ans = solve(index);
+      System.out.println(ans);
+    } 
+  }
+  
+  static int solve(int n){
+      long c = 1000000007;
+      long ans = n*(2*n-1)%c;
+      int a = (int) ans;
+         return a;
+  }
+}
+*/
