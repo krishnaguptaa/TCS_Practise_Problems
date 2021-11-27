@@ -1,2 +1,2 @@
 # TCS CPA, CodeVita & DCA Questions
-Practise Problems Asked During TCS exams like CPA, CodeVita & DCA are Solved Here !!!
+#### Solutions for practise problems asked during TCS exams like CPA, CodeVita and DCA.
